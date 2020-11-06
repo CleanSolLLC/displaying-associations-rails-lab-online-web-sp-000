@@ -9,7 +9,6 @@ describe 'artists', type: :feature do
 
   it "show page links to the artist's songs by title" do
     visit artist_path(@artist)
-    binding.pry
     expect(page.status_code).to eq(200)
     expect(page).to have_link('The Grid', href: song_path(@grid))
   end
