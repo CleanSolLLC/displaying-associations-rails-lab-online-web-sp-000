@@ -16,3 +16,7 @@ end
 
 group :development do
 end
+
+gem "byebug", "~> 11.1"
+
+gem "pry-byebug", "~> 3.8"
